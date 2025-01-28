@@ -1,4 +1,4 @@
-# Fetch Take-Home Project***
+# Fetch Take-Home Project
 
 ### Overview
 This project involves cleaning, analyzing, and drawing insights from three datasets: users, products, and transactions. The analysis aims to identify data quality issues, highlight trends, and generate actionable insights for business stakeholders.
