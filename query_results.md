@@ -22,7 +22,7 @@ GROUP BY brand
 ORDER BY scanned_item DESC
 LIMIT 5
 ```
-![Alt text](data/images/query_1.png)
+![Alt text](images/query_1.png)
 
 2. What are the top 5 brands by sales among users that have had their account for at least six months?
 
@@ -47,7 +47,7 @@ GROUP BY brand
 ORDER BY total_sale DESC
 LIMIT 5
 ```
-![Alt text](data/images/query_2.png)
+![Alt text](images/query_2.png)
 
 3. What is the percentage of sales in the Health & Wellness category by generation?
 
@@ -73,7 +73,7 @@ WHERE category_1 = 'Health & Wellness'
 GROUP BY age_group
 ORDER BY generation
 ```
-![Alt text](data/images/query_3.png)
+![Alt text](images/query_3.png)
 
 Open-ended questions: for these, make assumptions and clearly state them when answering the question.
 
@@ -167,7 +167,7 @@ LIMIT 5;
 
 ```
 
-![Alt text](data/images/query_5.png)
+![Alt text](images/query_5.png)
 
 Tostitos is the leading brand in both total_sales and total_quantity in the top 5 brands in Dips & Salsa. We can insert different metrics into the growth_calculation CTE, such as user growth etc.
 
@@ -197,7 +197,7 @@ growth_calculation AS (
 
 SELECT * FROM growth_calculation
 ```
-![Alt text](data/images/query_6.png)
+![Alt text](images/query_6.png)
 
 Since we only have data in 2024 for 3 months, we cannot calculate a valid result for previous year sales and YOY growth percentage.
 
