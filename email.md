@@ -23,7 +23,7 @@ There is a significant number of USER\_ID mismatches between user dataset and tr
 
 As shown below, there are 3968 products that are missing their BARCODEs. We would need to backfill the BARCODE, or we could not identify these products in transactions, hence analyzing their sales records.  
 
-![Alt text](data/images/email_1.png)
+![Alt text](images/email_1.png)
 
 **Request:** Could the merchandising team please help backfill the missing BARCODEs?
 
