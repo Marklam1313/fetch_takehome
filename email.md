@@ -30,7 +30,7 @@ As shown below, there are 3968 products that are missing their BARCODEs. We woul
 3. **Products with missing values or invalid terms in MANUFACTURER and BRAND**
 
 As shown in the below screenshot, there are a significant amount of missing values and invalid terms in both MANUFACTURER and BRAND. I have cleaned the invalid terms by grouping them as ‘UNKNOWN MANUFACTURER’ and ‘UNKNOWN BRAND’ for now. But it would still require team efforts to backfill the values, or we could not analyze the performance of all manufacturers and brands.  
-![Alt text](data/images/email_2.png)
+![Alt text](images/email_2.png)
 
 **Request:** Could the merchandising team confirm whether there is an internal reference list to backfill these values? Or it’d be great if you could provide the source.
 
@@ -51,7 +51,7 @@ Understanding these would help me apply an efficient logic to handle their relat
 2. **Transactions with missing values or invalid terms in FINAL\_QUANTITY & FINAL\_SALE** 
 
 As shown in the below example, many rows of transactions have ‘zero’ in FINAL\_QUANTITY or empty FINAL\_SALE.  
-![Alt text](data/images/email_3.png)
+![Alt text](images/email_3.png)
 
 During my data cleaning process, I assumed that the empty values in FINAL\_SALE are indeed the bundled sales item. Because every row with an empty value in FINAL\_SALE is paired with a row with identical RECEIPT\_ID, USER\_ID, and BARCODE, and they have a valid FINAL\_SALE. Therefore I have now cleaned the FINAL\_SALE column by replacing the empty value with ‘0’. It would be much appreciated if the sales team could confirm my assumption by cross-checking the RECEIPT\_ID and BARCODE in the above example.
 
@@ -66,7 +66,7 @@ Would it be possible to receive feedback on these issues by \[specific date\] so
 **Interesting Trend**  
 Last but not least, I would like to share an interesting trend that might be helpful to the marketing team and procurement team based on the available data. During my analysis, I identified the best performing day and worst performing day in terms of number of orders across the three months period. As shown below, our users are the most active on Saturday, but tend to slow down during weekdays.
 
-![Alt text](data/images/email_4.png)
+![Alt text](images/email_4.png)
 
 This trend could help us design targeted promotions and inventory planning strategies to align with user behavior. When we have more available and accurate data, we could further analyse user activity based on their demographic. For example, are younger users more active across the weekend. Please let me know if you would like to further explore this issue.
 
