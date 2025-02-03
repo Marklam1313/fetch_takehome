@@ -144,7 +144,7 @@ AND n.sales_per_month >= p.top_sale
 AND n.categories_per_month >= p.top_categories
 ```
 
-![Alt text](data/images/query_4.png)
+![Alt text](images/query_4.png)
 
 2. Which is the leading brand in the Dips & Salsa category?
 
